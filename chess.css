@@ -21,11 +21,11 @@ body {
     zoom: 75%;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .bg-container {
         zoom: 67%;
     }
-}
+} */
 
 .div {
     display: flex;
@@ -54,15 +54,16 @@ h1 {
     margin: 20px;
     font-size: 2.5rem;
     text-align: center;
-    color: black;
-    border: 2px solid black;
+    color: #3E2723;
+    border: 2.5px solid #6D4C41;
     padding: 10px;
-    background-color: #7d8796;
+    background-color:#D7CCC8;
     border-radius: 5px;
 }
 
 h1:hover {
-    background-color: gray;
+    color:#5D4037;
+    background-color:#EFEBE9;
     cursor: default;
 }
 
@@ -78,26 +79,31 @@ h1:hover {
 }
 
 #reset-btn {
-    /* background-color: #4CAF50; */
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #6D4C41;
     border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    /* font-size: 16px; */
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
     cursor: pointer;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 10px 20px;
-    background-color: #48a54b;
-    border-radius: 10px;
-    
-}
-
-#reset-btn:hover {
-    background-color: rgb(201, 29, 29);
-}
+    outline: none;
+  }
+  
+  #reset-btn:hover {
+    background-color: #5D4037;
+    box-shadow: 0px 15px 20px #5D4037;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  #reset-btn:active {
+    transform: translateY(-1px);
+  }
 
 @media (max-width: 650px) {
     .box {
@@ -115,15 +121,31 @@ h1:hover {
     }
 
     #reset-btn {
-        font-size: 13px;
-        font-weight: 500;
-        padding: 10px 20px;
-        background-color: #48a54b;
-        border-radius: 10px;
-    }
-    #reset-btn:hover {
-        background-color: rgb(201, 29, 29);
-    }
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 600;
+        color: #FFFFFF;
+        background-color: #6D4C41;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      #reset-btn:hover {
+        background-color: #5D4037;
+        box-shadow: 0px 15px 20px #5D4037;
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      
+      #reset-btn:active {
+        transform: translateY(-1px);
+      }
 }
 
 @media (max-width: 400px) {
@@ -135,4 +157,30 @@ h1:hover {
         margin: 30px 0;
         font-size: 10px;
     }
+    #reset-btn {
+        padding: 1.3em 3em;
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 600;
+        color: #FFFFFF;
+        background-color: #6D4C41;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      #reset-btn:hover {
+        background-color: #5D4037;
+        box-shadow: 0px 15px 20px #5D4037;
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      
+      #reset-btn:active {
+        transform: translateY(-1px);
+      }
 }
