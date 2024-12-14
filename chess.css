@@ -13,6 +13,7 @@ body {
     background-size:cover;
 }
 
+/* Default zoom for all devices */
 .bg-container {
     display: grid;
     place-items: center;
@@ -26,6 +27,7 @@ body {
         zoom: 67%;
     }
 }
+
 
 .div {
     display: flex;
