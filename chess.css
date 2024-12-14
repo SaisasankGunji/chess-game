@@ -65,6 +65,7 @@ h1 {
 
 h1:hover{
     background-color: gray;
+    cursor:default;
 }
 
 #tog {
@@ -120,11 +121,18 @@ h1:hover{
         width: 7vw;
     }
     #tog {
-        margin: 30px 0px;
+        margin: 15px 0px;
         font-size: 20px;
     }
     #reset-btn {
-        font-size: 10px;
+        font-size: 13px;
+        font-weight:500;
+        padding:10px 20px;
+        background-color: #48a54b;
+        border-radius:10px;
+    }
+    #reset-btn:hover{
+        background-color: rgb(201, 29, 29);;
     }
     h1{
         font-size: 30px;
