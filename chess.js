@@ -3,11 +3,11 @@ function insertImage() {
     document.querySelectorAll('.box').forEach(image => {
         if (image.innerText.length !== 0) {
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
-                image.innerHTML = `${image.innerText} <img class='all-img all-pown' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `${image.innerText} <img class='all-img all-pown' src="${image.innerText}.png" style="height:80%; width:70%" alt="">`
                 image.style.cursor = 'pointer'
             }
             else {
-                image.innerHTML = `${image.innerText} <img class='all-img' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `${image.innerText} <img class='all-img' src="${image.innerText}.png" style="height:80%; width:70%"  alt="">`
                 image.style.cursor = 'pointer'
             }
         }
@@ -29,10 +29,10 @@ function coloring() {
         a = aside + aup
 
         if (a % 2 == 0) {
-            color.style.backgroundColor = 'rgb(232 235 239)'
+            color.style.backgroundColor = '#8D6E63'
         }
         if (a % 2 !== 0) {
-            color.style.backgroundColor = 'rgb(125 135 150)'
+            color.style.backgroundColor = '#F5E1C0'
         }
     })
 }
