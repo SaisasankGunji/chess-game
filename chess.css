@@ -13,11 +13,18 @@ body {
     background-size:cover;
 }
 
-.container {
+.bg-container {
     display: grid;
     place-items: center;
     justify-content: center;
-    zoom:67%;
+    zoom: 75%;
+}
+
+/* Zoom for large and extra-large devices */
+@media (min-width: 992px) {
+    .bg-container {
+        zoom: 67%;
+    }
 }
 
 .div {
