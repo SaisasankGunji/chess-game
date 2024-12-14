@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    background: url(background.jpg) no-repeat center center fixed;
+    background: url(background.jpg);
     height: 100vh;
     background-size: cover;
 }
@@ -18,14 +18,12 @@ body {
     display: grid;
     place-items: center;
     justify-content: center;
-    transform: scale(0.75); /* Default zoom: 75% for smaller devices */
-    transform-origin: center;
+    zoom: 75%;
 }
 
-/* Media Query for lg (992px) and above */
 @media (min-width: 992px) {
     .bg-container {
-        transform: scale(0.67); /* Zoom: 67% for large and extra-large devices */
+        zoom: 67%;
     }
 }
 
