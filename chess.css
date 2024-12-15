@@ -18,15 +18,19 @@ body {
     display: grid;
     place-items: center;
     justify-content: center;
-    zoom: 67%;
 }
 
-/* @media (min-width: 992px) {
+@media(min-width:576px){
+    .bg-container{
+        zoom:75%;
+    }
+}
+
+@media (min-width: 992px) {
     .bg-container {
         zoom: 67%;
     }
-} */
-
+}
 .div {
     display: flex;
 }
